@@ -2,9 +2,6 @@
 Official implementation of black-box label ownership verification via label backdoor watermarking (LVBW). Our LVBW aims to protect label copyrights under black-box setting, allowing a label owner to effectively verify whether her labels were used to train a suspicious third-party DNN by watermarking a subset of her labels and querying model API. Our codes is based on [https://github.com/SewoongLab/FLIP].
 
 ---
-## Abstract
-TODO
----
 
 ## In this repo
 It splits into three main folders: `experiments`, `modules`, and `schemas`. The `experiments` folder contains subfolders and `.toml` configuration files on which an experiment may be run. The `modules` folder stores source code for each of the subsequent part of an experiment. These modules take in specific inputs and outputs as defined by their subseqeunt `.toml` documentation in the `schemas` folder. Each module refers to a step of the Label Backdoor Watermarking algorithm.
