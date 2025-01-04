@@ -9,7 +9,7 @@ It splits into three main folders: `experiments`, `modules`, and `schemas`. The 
 1. `train_expert`: Step 1 of watermarking: training expert models and recording trajectories.
 1. `generate_labels`: Step 2 of watermarking: generating poisoned labels from trajectories.
 1. `select_flips`: Step 3 of watermarking: strategically flipping labels within some budget. 
-1. `train_user`: Use watermarked labels to train a model. Evaluate watermarking by ACC/ASR of this model and get verification results（i.e.,p-value and △P）.
+1. `train_user`: Use watermarked labels to train a model. Evaluate watermarking by ACC/ASR of this model and get verification results（i.e.,p-value and $\Delta P$）.
 
 More documentation can be found in the `schemas` folder.
 
